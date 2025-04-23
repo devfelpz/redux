@@ -7,10 +7,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
+    "json-server": "^1.0.0-beta.3",
     "lucide-react": "^0.488.0",
     "radix-ui": "^1.2.0",
     "react": "^19.0.0",
@@ -30,6 +33,7 @@
     "tailwind-scrollbar": "^4.0.2",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
-    "vite": "^6.2.0"
+    "vite": "^6.2.0",
+    "vitest": "^3.1.2"
   }
 }
